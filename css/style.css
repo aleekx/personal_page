@@ -1,0 +1,91 @@
+/*5.martie.2016*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  font-family: times;
+}
+
+.content {
+  width: 60%;
+  height: 600px;
+  position: relative;;
+  margin: 150px auto;
+  color: #fff;
+  /*border: 5px solid red;*/
+  background-color: #0e211f;
+  opacity: 0.9;
+  box-shadow: 10px 10px 30px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  /*position: relative;*/
+  border-radius: 50%;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 1.8em;
+  text-align: center;
+  line-height:1.6em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.mail {
+  background-color: black;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 430px;
+  margin-bottom: 120px;
+  position: relative;
+  display: block;
+}
+
+a {
+  color: #996600;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.col {
+  width: 33.33%;
+  text-align: left;
+  padding-left: 55px;
+  float: left;
+}
+
+.col::before {
+  position: relative;
+  width: 15px;
+  height: 3px;
+  border: 1px solid green;
+}
+
+h2 {
+  color:inherit;
+}
+
+h3{
+  color: #996600;
+}
